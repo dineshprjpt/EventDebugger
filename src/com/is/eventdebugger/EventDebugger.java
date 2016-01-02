@@ -115,7 +115,7 @@ public class EventDebugger extends Activity {
 	private void sendEmail(String body) {
 		Intent intent = new Intent(Intent.ACTION_SEND);
 		intent.setType("text/html");
-		intent.putExtra(Intent.EXTRA_EMAIL, "vishalsinh.jhala@infostretch.com");
+		intent.putExtra(Intent.EXTRA_EMAIL, "dineshprjpt@gmail.com");
 		intent.putExtra(Intent.EXTRA_SUBJECT, "Event Logs");
 		intent.putExtra(Intent.EXTRA_TEXT, body);
 		intent.setType("text/plain");
